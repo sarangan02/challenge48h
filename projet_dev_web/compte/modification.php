@@ -23,6 +23,7 @@
   <link href="../css/resume.min.css" rel="stylesheet">
 
 </head>
+
 <?php 
 
 $db = new PDO('mysql:host=localhost;dbname=projet_web', 'root','');
@@ -32,7 +33,7 @@ $req = $db->prepare('SELECT * FROM users');
 
 $executeIsOk = $req->execute();
 
-$liste = $req->fetch();
+$liste = $req->fetch(); //détermine la façon dont PDO retourne la ligne. 
 
 ?>
 
@@ -50,7 +51,7 @@ $liste = $req->fetch();
           <a class="nav-link js-scroll-trigger" href="../index2.php">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="annonce.php">Mes Annonces</a>
+          <a class="nav-link js-scroll-trigger" href="annonce.php">Photo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="profile.php">Mon Profil</a>

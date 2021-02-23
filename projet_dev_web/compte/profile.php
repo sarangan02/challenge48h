@@ -51,13 +51,7 @@ $liste = $req->fetch();
           <a class="nav-link js-scroll-trigger" href="../index2.php">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="annonce.php">Mes Annonces</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="profile.php">Mon Profil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="../messagerie/messagerie_vendeur.php">Mes Messages</a>
+          <a class="nav-link js-scroll-trigger" href="annonce.php">Photo</a>
         </li>
         <?php 
 
@@ -118,7 +112,7 @@ $liste = $req->fetch();
   <form method="POST" action="modif_PP.php" enctype="multipart/form-data">
   	<input type="hidden" name="size" value="1000000">
   	<div>
-      <label for="texte">Phtoto de profil :</label><br>
+      <label for="texte">Photo de profil :</label><br>
   	  <input type="file" name="image">
   	</div>
   	<div>

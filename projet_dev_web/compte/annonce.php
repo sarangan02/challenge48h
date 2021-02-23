@@ -51,7 +51,7 @@ $liste = $req->fetch(); //détermine la façon dont PDO retourne la ligne.
           <a class="nav-link js-scroll-trigger" href="../index2.php">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="annonce.php">Mes Annonces</a>
+          <a class="nav-link js-scroll-trigger" href="annonce.php">Photo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="profile.php">Mon Profil</a>

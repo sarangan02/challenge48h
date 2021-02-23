@@ -53,7 +53,7 @@ $liste = $req->fetch();
           <a class="nav-link js-scroll-trigger" href="#about">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Annonces</a>
+          <a class="nav-link js-scroll-trigger" href="compte/annonce.php">Photo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="compte/profile.php">Profil</a>
@@ -75,8 +75,8 @@ $liste = $req->fetch();
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
       <img src="img/header.jpg" class="images_LBC">
-        <h1 class="mb-0">Leboncoin
-          <span class="text-primary">meilleur site de transaction en ligne</span>
+        <h1 class="mb-0">
+          <span class="text-primary"></span>
         </h1>
       </div>
     </section>
