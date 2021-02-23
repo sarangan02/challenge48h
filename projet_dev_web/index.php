@@ -5,9 +5,6 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
       <img src="img/header.jpg" class="images_LBC">
-        <h1 class="mb-0">Leboncoin
-          <span class="text-primary">meilleur site de transaction en ligne</span>
-        </h1>
       </div>
     </section>
 
