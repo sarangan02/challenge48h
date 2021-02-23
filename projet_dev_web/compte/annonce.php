@@ -111,32 +111,32 @@ if (!empty($_POST)) {
         </div>
 
         <div class="form-group">
-            <label for="Instants_de_consommation">Instants_de_consommation</label>
+            <label for="Instants_de_consommation">Instants de consommation</label>
             <input type="text" class="form-control" id="Instants_de_consommation" name="Instants_de_consommation">
         </div>
 
         <div class="form-group">
-            <label for="description">description</label>
+            <label for="description">Description</label>
             <textarea rows="10" class="form-control" id="description" name="description"></textarea>
         </div>
 
         <div class="form-group">
-            <label for="ambiance">ambiance</label>
+            <label for="ambiance">Ambiance</label>
             <input type="text" class="form-control" id="ambiance" name="ambiance">
         </div>
         
         <div class="form-group">
-            <label for="composante_du_repas">composante_du_repas</label>
+            <label for="composante_du_repas">Composant du repas</label>
             <input type="text" class="form-control" id="composante_du_repas" name="composante_du_repas">
         </div>
 
         <div class="form-group">
-            <label for="prise_de_vue">prise_de_vue</label>
+            <label for="prise_de_vue">Prise de vue</label>
             <input type="text" class="form-control" id="prise_de_vue" name="prise_de_vue">
         </div>
 
         <div class="form-group">
-            <label for="region">region</label>
+            <label for="region">Region</label>
             <input type="text" class="form-control" id="region" name="region">
         </div>
 
@@ -158,6 +158,3 @@ if (!empty($_POST)) {
     </form>
 </div>
 
-<br><br>
-
-<a href="../index2.php#menu" class="btn btn-primary">Accueil</a>

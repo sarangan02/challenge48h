@@ -40,13 +40,13 @@ $conn = mysqli_connect($db_server,$db_user_login, $db_user_pass, $db_name);
     <div class="card-body">
         <br>
         <h3 class="card-title"><?php echo $recherche['titre'] ; ?></h3>
-        <div class="subheading mb-3"><?php echo $recherche['Instants_de_consommation'] ; ?> $</div>
+        <div class="subheading mb-3"><?php echo $recherche['Instants_de_consommation'] ; ?> </div>
         <p><?php echo $recherche['description'] ; ?>.</p>
         </div>
-        <div class="subheading mb-3"><?php echo $recherche['ambiance'] ; ?> $</div>
-        <div class="subheading mb-3"><?php echo $recherche['composante_du_repas'] ; ?> $</div>
-        <div class="subheading mb-3"><?php echo $recherche['prise_de_vue'] ; ?> $</div>
-        <div class="subheading mb-3"><?php echo $recherche['region'] ; ?> $</div>
+        <div class="subheading mb-3"><?php echo $recherche['ambiance'] ; ?> </div>
+        <div class="subheading mb-3"><?php echo $recherche['composante_du_repas'] ; ?> </div>
+        <div class="subheading mb-3"><?php echo $recherche['prise_de_vue'] ; ?> </div>
+        <div class="subheading mb-3"><?php echo $recherche['region'] ; ?> </div>
         <?php
         echo "<div id='img_div' >";
       	echo "<img class='rounded float-left' style='width: 200px;' src='images/".$recherche['image']."' >";
